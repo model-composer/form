@@ -1,0 +1,20 @@
+{
+    "name": "model/form",
+    "description": "HTML forms management",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Domenico Giambra",
+            "email": "zorinik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Model\\Form\\": "src/"}
+    },
+    "require": {
+        "model/providers-finder": "^0.3.5"
+    },
+    "suggest": {
+        "model/db": "To automatically read types from database"
+    }
+}
